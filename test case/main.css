@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+header{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	box-shadow: 0px 6px 24px 0px rgba(0,0,0,0.05);
+}
+.inf{
+	margin-left: 100px;
+	width: 440px;
+}
+.name{
+	font-size: 35px;
+}
+
+.name>a{
+	font-size: 17px;
+}
+.start{
+	width: 149px;
+	height: 31px;
+	border: 1.0px solid #4090db;
+	padding: 5px;
+	text-decoration: none;
+	color: #4090db;
+	margin-left: 27px;
+}
+.stats{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+	margin-top: 20px;
+}
+input{
+	width: 120px;
+	height: 25px;
+	border-radius: 5px 0 0 5px;
+	box-sizing: inherit;
+
+}
+.date{
+	height: 31px;
+}
+.date_r{
+	width: 31px;
+	height: 31px;
+	background: url("images/x.png") center no-repeat;
+	position: relative;
+	top: 10px;
+}
+.date_c{
+	width: 31px;
+	height: 31px;
+	background: url("images/date.png") center no-repeat;
+	border-radius: 0 5px 5px 0;
+	position: relative;
+	top: 10px;
+}
+.content{
+	margin:auto;
+	width: 938px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.block{
+	width: 292px;
+	height: 292px;
+	font-size: 17px;
+	line-height: 24px;
+	font-weight: 700;
+	margin-top: 20px;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+	color: white;
+}
+.padd{
+	padding-left: 70px;
+}
+.one{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/1.png");
+}
+.two{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/2.png");
+}
+.three{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/3.png");
+}
+.four{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/4.png");
+}
+.five{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/5.png");
+}
+.six{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/6.png");
+}
+.seven{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/7.png");
+}
+.eight{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/1.png");
+}
+.nine{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/3.png");
+}
+.img_info{
+	width: 216px;
+	height: 54px;
+	margin-top: 134px;
+	margin-left: 22px;
+	margin-bottom: 70px;
+}
+.block>p{
+	text-align: center;
+}
+.more{
+	width: 124px;
+	height: 28px;
+	background-color: #fafafa;
+	border: 1.0px solid #000000;
+	border-radius: 14px;
+	margin: 60px 0 60px 0;
+}
+div,span,p,h1,input,button{
+	font-family: "Myriad Pro";
+}
+@media only screen and (max-width: 950px){
+	header{
+		flex-direction: column;
+		height: 330px;
+	}
+	.content{
+		flex-direction: column;
+		width: 400px;
+	}
+}
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('MyriadPro-LightIt.eot');
+	src: local('Myriad Pro Light Italic'), local('MyriadPro-LightIt'),
+		url('fonts/MyriadPro-LightIt.eot?#iefix') format('embedded-opentype'),
+		url('fonts/MyriadPro-LightIt.woff') format('woff'),
+		url('fonts/MyriadPro-LightIt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
